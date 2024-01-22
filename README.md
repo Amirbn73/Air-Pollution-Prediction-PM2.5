@@ -25,7 +25,7 @@ After preprocessing, data is ready to be imported into the ArcGIS environment. A
 
 **references:**
 
-1. Cohen, A. J., Brauer , M., Burnett, R., Anderson, H. R., Frostad , J., Estep, K., Balakrishnan , K., Brunekreef , B., Dandona , L., Dandona , R., Feigin , V., Freedman, G., Hubbell, B., Jobling , A., Kan , H., Knibbs , L., Liu, Y., Martin, R., Morawska , L., . . . Forouzanfar , M. H. 2017 ). Estimates and 25 year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015 . The Lancet, 389 10082 ), 1907-1918 . https://doi.org/10.1016/S0140673617305056
+1. Cohen, A. J., Brauer , M., Burnett, R., Anderson, H. R., Frostad , J., Estep, K., Balakrishnan , K., Brunekreef , B., Dandona , L., Dandona , R., Feigin , V., Freedman, G., Hubbell, B., Jobling , A., Kan , H., Knibbs , L., Liu, Y., Martin, R., Morawska , L., . . . Forouzanfar , M. H. 2017 ). Estimates and 25 year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015 . The Lancet, 389 10082 ), 1907-1918 . https://doi.org/10.1016/S0140-6736(17)30505-6
 3. Huang, J., Pan, X., Guo , X., & Li, G. 2018 ). Health impact of China's Air Pollution Prevention and Control Action Plan: an analysis of national air quality
 monitoring and mortality data. The Lancet Planetary Health, 2 7 ), e 313 e 323 https://doi.org/ 10.1016 /S 2542 5196 18 30141 4
 4. Jelonek , Z., Drobniak , A., Mastalerz , M., & Jelonek , I. 2020 ). Environmental implications of the quality of charcoal briquettes and lump charcoal used for
