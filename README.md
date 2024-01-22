@@ -6,3 +6,5 @@ Throughout recent decades from 19's to present, although the urbanization enhanc
 
 **Study Area:**
 The study area spans between ---- and ---- north and between ----- and ----- East. As far as the stations for meteorology data and stations for air pollution measurement are apart from each other, this area was the result of an overlap(clipping tool in ArcGIS) between the area covered by the meteorology stations and the area covered by the air pollution stations. 
+**Dataset:**
+The dataset used in this research includes different types of data including PM2.5 data downloaded from the website of the Department for Environment Food and Rural Affairs(DEFRA) and meteorology data requested from the Digital Library and Archive for Met Office. Regarding the temporal aspect, the data is for the period from January 2020 to December 2021 on a daily basis which due to it huge volume is converted to monthly mean. The station's details for air pollution measurement and meteorology are described in table  and   respectively.
