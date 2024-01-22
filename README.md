@@ -22,3 +22,13 @@ After obtaining data, it has to be in the format eligible to import as stations 
 After preprocessing, data is ready to be imported into the ArcGIS environment. After importing, on each group of data (meteorology data and PM2.5) an interpolation is used to create estimated data for the parts of the area without stations. To do this, Inverse Distance Weighted (IDW) interpolation is used. Then, the Clipping tool in ArcGIS is used to crop the overlap area between these layers. After obtaining the optimal area, the main road shape file is downloaded from https://www.data.gov.uk/dataset/95f58bfa-13d6-4657-9d6f-020589498cfd/ major-road-network and imported to ArcGIS and the Euclidean distance for each pixel to the main roads is calculated using the ArcGIS Euclidean Distance tool and saved in a raster file over the overlap area. All these raster data are then exported from ArcGIS to the notebook for running models. To illustrate more, over the area of interest, there are 24 raster files each for one month regarding each variable either independent variable or target/dependent variable. All these raster files are converted to the numpy arrays using the arcpy library and then preprocessed for feeding into neural networks.
 
 
+
+**references:**
+
+1. Cohen, A. J., Brauer , M., Burnett, R., Anderson, H. R., Frostad , J., Estep, K., Balakrishnan , K., Brunekreef , B., Dandona , L., Dandona , R., Feigin , V., Freedman, G., Hubbell, B., Jobling , A., Kan , H., Knibbs , L., Liu, Y., Martin, R., Morawska , L., . . . Forouzanfar , M. H. 2017 ). Estimates and 25 year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of Diseases Study 2015 . The Lancet, 389 10082 ), 1907-1918 . https://doi.org/ 10.1016 /S 0140 6736 17 30505 6
+2. Huang, J., Pan, X., Guo , X., & Li, G. 2018 ). Health impact of China's Air Pollution Prevention and Control Action Plan: an analysis of national air quality
+monitoring and mortality data. The Lancet Planetary Health, 2 7 ), e 313 e 323 https://doi.org/ 10.1016 /S 2542 5196 18 30141 4
+3. Jelonek , Z., Drobniak , A., Mastalerz , M., & Jelonek , I. 2020 ). Environmental implications of the quality of charcoal briquettes and lump charcoal used for
+grilling. Science of The Total Environment, 747 , 141267 https://doi.org/https:// doi.org/ 10.1016 /j. 2020.141267
+4. Wang, S., Gao, S., Li, S., & Feng, K. ( 2020 ). Strategizing the relation between urbanization and air pollution: Empirical evidence from global countries. Journal
+of Cleaner Production , 243 , 118615 . https://doi.org/https://doi.org/ 10.1016 /j. 2019.118615
