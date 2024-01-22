@@ -6,7 +6,7 @@ Throughout recent decades from 19's to present, although the urbanization enhanc
 
 **Study Area:**
 
-The study area spans between ---- and ---- north and between ----- and ----- East. As far as the stations for meteorology data and stations for air pollution measurement are apart from each other, this area was the result of an overlap(clipping tool in ArcGIS) between the area covered by the meteorology stations and the area covered by the air pollution stations. 
+The study area spans over a western part of London city. As far as the stations for meteorology data and stations for air pollution measurement are apart from each other, this area was the result of an overlap(clipping tool in ArcGIS) between the area covered by the meteorology stations and the area covered by the air pollution stations. 
 
 **Dataset:**
 
