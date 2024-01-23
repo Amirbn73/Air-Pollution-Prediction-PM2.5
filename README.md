@@ -1,6 +1,7 @@
 # Air-Pollution-Prediction
 This project uses various data sources and structures to predict spatio-temporal pattern of air pollution in urban areas.
 
+The dataset for running ANN_models can be downloaded via https://www.kaggle.com/datasets/amirbaniasadi/spatio-temporal-meteorology-data
 
 Throughout recent decades from 19's to present, although the urbanization enhanced the quality of life, it has brought about voluminous environmental issues through the world(Wang et al., 2020 ). Numerous studies have demonstrated a link between air pollution and death rates in various nations(Cohen et al., 2017 ; Huang et al., 2018 ). For efficient environmental management and the preservation of public health, accurate air pollution forecasting is crucial( Jelonek et al., 2020 ). Given the significance of reliable air pollution forecasting, this project endeavors to employ Multilayer Perceptron (MLP) and Radial Basis Function (RBF) neural networks as methods to predict air pollution levels in London.
 
